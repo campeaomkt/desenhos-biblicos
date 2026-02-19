@@ -1,0 +1,8 @@
+{
+  "name": "Crescendo com Cristo - Landing Page de Alta Conversão",
+  "description": "Uma página de vendas otimizada para o Kit de Atividades Bíblicas Infantis, com copy persuasiva, design moderno e assistente de IA integrado para pais.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
