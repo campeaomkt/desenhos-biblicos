@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
@@ -8,7 +7,6 @@ import { PricingTable } from './components/PricingTable';
 import { Summary } from './components/Summary';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
-import { AIAssistant } from './components/AIAssistant';
 
 const App: React.FC = () => {
   const [showStickyBtn, setShowStickyBtn] = useState(false);
@@ -30,6 +28,7 @@ const App: React.FC = () => {
       <Hero />
       <HowItWorks />
       <KitContent />
+
       <div className="py-12 bg-green-600">
         <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-8">
@@ -43,10 +42,10 @@ const App: React.FC = () => {
             </button>
         </div>
       </div>
+
       <Bonuses />
       <PricingTable />
       <Summary />
-      <AIAssistant />
       <FAQ />
       <Footer />
 
